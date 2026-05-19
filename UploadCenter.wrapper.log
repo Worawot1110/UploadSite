@@ -1,0 +1,262 @@
+2026-05-19 16:36:54,504 DEBUG - Starting WinSW in console mode
+2026-05-19 16:36:54,550 INFO  - Installing service 'UploadCenter (UploadCenter)'...
+2026-05-19 16:36:54,629 INFO  - Service 'UploadCenter (UploadCenter)' was installed successfully.
+2026-05-19 16:37:26,527 DEBUG - Starting WinSW in console mode
+2026-05-19 16:37:26,731 INFO  - Starting service 'UploadCenter (UploadCenter)'...
+2026-05-19 16:37:27,464 DEBUG - Starting WinSW in service mode
+2026-05-19 16:37:27,503 INFO  - Service 'UploadCenter (UploadCenter)' started successfully.
+2026-05-19 16:37:27,825 INFO  - Starting 
+    C:\Users\Administrator\AppData\Local\Programs\Python\Python314\python.exe
+    N:\UploadSite\appYPB.py 
+2026-05-19 16:37:27,867 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process '
+    C:\Users\Administrator\AppData\Local\Programs\Python\Python314\python.exe
+  ' with working directory '
+    N:\UploadSite
+  '. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-19 16:37:46,068 DEBUG - Starting WinSW in console mode
+2026-05-19 16:38:02,342 DEBUG - Starting WinSW in service mode
+2026-05-19 16:38:02,611 INFO  - Starting 
+    C:\Users\Administrator\AppData\Local\Programs\Python\Python314\python.exe
+    N:\UploadSite\appYPB.py 
+2026-05-19 16:38:02,665 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process '
+    C:\Users\Administrator\AppData\Local\Programs\Python\Python314\python.exe
+  ' with working directory '
+    N:\UploadSite
+  '. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-19 16:40:14,965 DEBUG - Starting WinSW in service mode
+2026-05-19 16:40:15,509 INFO  - Starting 
+    C:\Users\Administrator\AppData\Local\Programs\Python\Python314\python.exe
+    N:\UploadSite\appYPB.py 
+2026-05-19 16:40:15,647 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process '
+    C:\Users\Administrator\AppData\Local\Programs\Python\Python314\python.exe
+  ' with working directory '
+    N:\UploadSite
+  '. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-19 16:52:02,119 DEBUG - Starting WinSW in console mode
+2026-05-19 16:52:08,919 DEBUG - Starting WinSW in console mode
+2026-05-19 16:52:09,151 INFO  - Stopping service 'UploadCenter (UploadCenter)'...
+2026-05-19 16:52:09,174 INFO  - Service 'UploadCenter (UploadCenter)' has already stopped.
+2026-05-19 16:52:16,358 DEBUG - Starting WinSW in console mode
+2026-05-19 16:52:21,987 DEBUG - Starting WinSW in console mode
+2026-05-19 16:52:22,032 INFO  - Installing service 'UploadCenter (UploadCenter)'...
+2026-05-19 16:52:22,038 ERROR - A service with ID 'UploadCenter' already exists.
+2026-05-19 16:52:22,040 FATAL - Failed to install the service. The specified service already exists.
+2026-05-19 16:52:50,345 DEBUG - Starting WinSW in console mode
+2026-05-19 16:52:53,311 DEBUG - Starting WinSW in console mode
+2026-05-19 16:52:53,373 INFO  - Uninstalling service 'UploadCenter (UploadCenter)'...
+2026-05-19 16:52:53,380 INFO  - Service 'UploadCenter (UploadCenter)' was uninstalled successfully.
+2026-05-19 16:52:58,894 DEBUG - Starting WinSW in console mode
+2026-05-19 16:53:02,085 DEBUG - Starting WinSW in console mode
+2026-05-19 16:53:02,150 INFO  - Installing service 'UploadCenter (UploadCenter)'...
+2026-05-19 16:53:02,200 INFO  - Service 'UploadCenter (UploadCenter)' was installed successfully.
+2026-05-19 16:53:08,472 DEBUG - Starting WinSW in console mode
+2026-05-19 16:53:11,357 DEBUG - Starting WinSW in console mode
+2026-05-19 16:53:11,453 INFO  - Starting service 'UploadCenter (UploadCenter)'...
+2026-05-19 16:53:12,130 DEBUG - Starting WinSW in service mode
+2026-05-19 16:53:12,180 INFO  - Service 'UploadCenter (UploadCenter)' started successfully.
+2026-05-19 16:53:12,421 INFO  - Starting 
+C:\Users\PCKK0001\AppData\Local\Python\bin\python.exe
+  N:\UploadSite\appYPB.py 
+2026-05-19 16:53:12,461 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (267): An error occurred trying to start process '
+C:\Users\PCKK0001\AppData\Local\Python\bin\python.exe
+' with working directory '
+    N:\UploadSite
+  '. The directory name is invalid.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-19 16:53:17,665 DEBUG - Starting WinSW in console mode
+2026-05-19 16:56:07,833 DEBUG - Starting WinSW in console mode
+2026-05-19 16:56:11,857 DEBUG - Starting WinSW in console mode
+2026-05-19 16:56:11,920 INFO  - Uninstalling service 'UploadCenter (UploadCenter)'...
+2026-05-19 16:56:11,931 INFO  - Service 'UploadCenter (UploadCenter)' was uninstalled successfully.
+2026-05-19 16:56:21,646 DEBUG - Starting WinSW in console mode
+2026-05-19 16:56:24,638 DEBUG - Starting WinSW in console mode
+2026-05-19 16:56:24,727 INFO  - Installing service 'UploadCenter (UploadCenter)'...
+2026-05-19 16:56:24,896 INFO  - Service 'UploadCenter (UploadCenter)' was installed successfully.
+2026-05-19 16:56:29,905 DEBUG - Starting WinSW in console mode
+2026-05-19 16:56:33,551 DEBUG - Starting WinSW in console mode
+2026-05-19 16:56:33,622 INFO  - Starting service 'UploadCenter (UploadCenter)'...
+2026-05-19 16:56:34,316 DEBUG - Starting WinSW in service mode
+2026-05-19 16:56:34,364 INFO  - Service 'UploadCenter (UploadCenter)' started successfully.
+2026-05-19 16:56:34,618 INFO  - Starting 
+C:\Users\PCKK0001\AppData\Local\Python\bin\python.exe
+  D:\UploadSite\appYPB.py 
+2026-05-19 16:56:34,654 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (267): An error occurred trying to start process '
+C:\Users\PCKK0001\AppData\Local\Python\bin\python.exe
+' with working directory '
+    D:\UploadSite
+  '. The directory name is invalid.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-19 16:56:40,254 DEBUG - Starting WinSW in console mode
+2026-05-19 16:57:00,166 DEBUG - Starting WinSW in service mode
+2026-05-19 16:57:00,354 INFO  - Starting 
+C:\Users\PCKK0001\AppData\Local\Python\bin\python.exe
+  D:\UploadSite\appYPB.py 
+2026-05-19 16:57:00,383 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (267): An error occurred trying to start process '
+C:\Users\PCKK0001\AppData\Local\Python\bin\python.exe
+' with working directory '
+    D:\UploadSite
+  '. The directory name is invalid.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-19 16:57:55,356 DEBUG - Starting WinSW in console mode
+2026-05-19 16:58:03,706 DEBUG - Starting WinSW in console mode
+2026-05-19 16:58:03,764 INFO  - Uninstalling service 'UploadCenter (UploadCenter)'...
+2026-05-19 16:58:03,775 INFO  - Service 'UploadCenter (UploadCenter)' was uninstalled successfully.
+2026-05-19 16:58:12,691 DEBUG - Starting WinSW in console mode
+2026-05-19 16:58:16,968 DEBUG - Starting WinSW in console mode
+2026-05-19 16:58:17,037 INFO  - Installing service 'UploadCenter (UploadCenter)'...
+2026-05-19 16:58:17,044 ERROR - A service with ID 'UploadCenter' already exists.
+2026-05-19 16:58:17,046 FATAL - Failed to install the service. The specified service already exists.
+2026-05-19 16:58:30,593 DEBUG - Starting WinSW in console mode
+2026-05-19 16:58:34,905 DEBUG - Starting WinSW in console mode
+2026-05-19 16:58:34,961 INFO  - Installing service 'UploadCenter (UploadCenter)'...
+2026-05-19 16:58:34,970 ERROR - A service with ID 'UploadCenter' already exists.
+2026-05-19 16:58:34,972 FATAL - Failed to install the service. The specified service already exists.
+2026-05-19 16:58:43,089 DEBUG - Starting WinSW in console mode
+2026-05-19 16:58:45,989 DEBUG - Starting WinSW in console mode
+2026-05-19 16:58:46,064 INFO  - Uninstalling service 'UploadCenter (UploadCenter)'...
+2026-05-19 16:58:46,073 ERROR - Failed to delete service. The specified service has been marked for deletion.
+2026-05-19 16:58:50,149 DEBUG - Starting WinSW in console mode
+2026-05-19 16:58:53,313 DEBUG - Starting WinSW in console mode
+2026-05-19 16:58:53,363 INFO  - Installing service 'UploadCenter (UploadCenter)'...
+2026-05-19 16:58:53,371 ERROR - A service with ID 'UploadCenter' already exists.
+2026-05-19 16:58:53,373 FATAL - Failed to install the service. The specified service already exists.
+2026-05-19 16:59:24,650 DEBUG - Starting WinSW in console mode
+2026-05-19 16:59:28,301 DEBUG - Starting WinSW in console mode
+2026-05-19 16:59:28,340 INFO  - Uninstalling service 'UploadCenter (UploadCenter)'...
+2026-05-19 16:59:28,347 WARN  - Service 'UploadCenter (UploadCenter)' does not exist.
+2026-05-19 16:59:34,184 DEBUG - Starting WinSW in console mode
+2026-05-19 16:59:37,882 DEBUG - Starting WinSW in console mode
+2026-05-19 16:59:37,921 INFO  - Installing service 'UploadCenter (UploadCenter)'...
+2026-05-19 16:59:37,958 INFO  - Service 'UploadCenter (UploadCenter)' was installed successfully.
+2026-05-19 16:59:53,278 DEBUG - Starting WinSW in console mode
+2026-05-19 16:59:56,941 DEBUG - Starting WinSW in console mode
+2026-05-19 16:59:56,981 INFO  - Starting service 'UploadCenter (UploadCenter)'...
+2026-05-19 16:59:57,434 DEBUG - Starting WinSW in service mode
+2026-05-19 16:59:57,473 INFO  - Service 'UploadCenter (UploadCenter)' started successfully.
+2026-05-19 16:59:57,630 INFO  - Starting 
+    C:\Users\PCKK0001\AppData\Local\Python\bin\python.exe
+    D:\UploadSite\appYPB.py 
+2026-05-19 16:59:57,658 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (267): An error occurred trying to start process '
+    C:\Users\PCKK0001\AppData\Local\Python\bin\python.exe
+  ' with working directory '
+    D:\UploadSite
+  '. The directory name is invalid.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-19 17:00:14,661 DEBUG - Starting WinSW in console mode
+2026-05-19 17:01:36,498 DEBUG - Starting WinSW in console mode
+2026-05-19 17:01:36,537 FATAL - Unhandled exception
+System.Exception: Unknown command: status.\UploadCenter.exe
+   at WinSW.Program.Run(String[] argsArray, IServiceConfig config)
+   at WinSW.Program.Main(String[] args)
+2026-05-19 17:01:40,912 DEBUG - Starting WinSW in console mode
+2026-05-19 17:01:44,753 DEBUG - Starting WinSW in console mode
+2026-05-19 17:01:44,792 INFO  - Installing service 'UploadCenter (UploadCenter)'...
+2026-05-19 17:01:44,822 INFO  - Service 'UploadCenter (UploadCenter)' was installed successfully.
+2026-05-19 17:01:59,302 DEBUG - Starting WinSW in console mode
+2026-05-19 17:02:02,998 DEBUG - Starting WinSW in console mode
+2026-05-19 17:02:03,040 INFO  - Starting service 'UploadCenter (UploadCenter)'...
+2026-05-19 17:02:03,479 DEBUG - Starting WinSW in service mode
+2026-05-19 17:02:03,528 INFO  - Service 'UploadCenter (UploadCenter)' started successfully.
+2026-05-19 17:02:03,749 INFO  - Starting 
+    C:\Users\PCKK0001\AppData\Local\Python\bin\python.exe
+    D:\UploadSite\appYPB.py 
+2026-05-19 17:02:03,781 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (267): An error occurred trying to start process '
+    C:\Users\PCKK0001\AppData\Local\Python\bin\python.exe
+  ' with working directory '
+    D:\UploadSite
+  '. The directory name is invalid.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-19 17:02:17,028 DEBUG - Starting WinSW in console mode
+2026-05-19 17:15:47,244 DEBUG - Starting WinSW in service mode
+2026-05-19 17:15:47,418 INFO  - Starting 
+    C:\Users\PCKK0001\AppData\Local\Python\bin\python.exe
+    D:\UploadSite\appYPB.py 
+2026-05-19 17:15:47,446 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (267): An error occurred trying to start process '
+    C:\Users\PCKK0001\AppData\Local\Python\bin\python.exe
+  ' with working directory '
+    D:\UploadSite
+  '. The directory name is invalid.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-19 20:57:22,958 DEBUG - Starting WinSW in service mode
+2026-05-19 20:57:23,552 INFO  - Starting 
+    C:\Users\PCKK0001\AppData\Local\Python\bin\python.exe
+    D:\UploadSite\appYPB.py 
+2026-05-19 20:57:23,645 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (267): An error occurred trying to start process '
+    C:\Users\PCKK0001\AppData\Local\Python\bin\python.exe
+  ' with working directory '
+    D:\UploadSite
+  '. The directory name is invalid.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)

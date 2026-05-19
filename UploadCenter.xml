@@ -1,0 +1,26 @@
+<service>
+
+  <id>UploadCenter</id>
+
+  <name>UploadCenter</name>
+
+  <description>
+    Flask Upload Server
+  </description>
+
+  <executable>
+    C:\Users\PCKK0001\AppData\Local\Python\bin\python.exe
+  </executable>
+
+  <arguments>
+    D:\UploadSite\appYPB.py
+  </arguments>
+
+  <workingdirectory>
+    D:\UploadSite
+  </workingdirectory>
+
+  <onfailure action="restart" delay="5 sec"/>
+
+</service>
+
